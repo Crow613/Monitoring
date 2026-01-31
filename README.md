@@ -43,17 +43,16 @@ Provides real-time system and container metrics, beautiful dashboards, and resou
 [GitHub CLI] gh repo clone Crow613/Monitoring
 cd Monitoring
 
+```
 [start]  docker compose up -d
 [down] docker compose down
 
-| Сервис     | URL     local           |
-| ---------- | ----------------------- |
-| Prometheus | [http://localhost:9090] |
-| Grafana    | [http://localhost:3000] |
+| Сервис     | URL     local           |                                 | Первый вход в Grafana |
+| ---------- | ----------------------- |                                 | ----------------------|
+| Prometheus | [http://localhost:9090] |                                 | Логин:  | admin       |
+| Grafana    | [http://localhost:3000] |                                 | Пароль: | admin       |
 | cAdvisor   | [http://localhost:8080] |
 
-| Первый вход в Grafana |
-| ----------------------|
-| Логин:  | admin       |
-| Пароль: | admin       |
+
+
 
