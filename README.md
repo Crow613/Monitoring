@@ -47,12 +47,13 @@ cd Monitoring
 [start]  docker compose up -d
 [down] docker compose down
 
-| Сервис     | URL     local           |                                 | Первый вход в Grafana |
-| ---------- | ----------------------- |                                 | ----------------------|
-| Prometheus | [http://localhost:9090] |                                 | Логин:  | admin       |
-| Grafana    | [http://localhost:3000] |                                 | Пароль: | admin       |
+| Сервис     | URL     local           |  
+| ---------- | ----------------------- |
+| Prometheus | [http://localhost:9090] |
+| Grafana    | [http://localhost:3000] |
 | cAdvisor   | [http://localhost:8080] |
 
-
-
-
+| Первый вход в Grafana |
+| ----------------------|
+| Логин:  | admin       |
+| Пароль: | admin       |
